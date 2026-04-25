@@ -595,6 +595,14 @@ body {
   height: 57px;
 }
 
+.hotel {
+    max-width: 412px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 412 / 375;
+    object-fit: contain;
+  }
+
 @media (width<412px) {
   object:has(:not(.heart)) {
     max-width: 412px;
@@ -622,12 +630,6 @@ body {
     height: auto;
   }
 
-  .hotel {
-    max-width: 412px;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 412 / 375;
-  }
 
   .brosko{
     max-width: 412px;
