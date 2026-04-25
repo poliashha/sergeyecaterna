@@ -623,7 +623,7 @@ body {
     max-width: 412px;
     width: 100%;
     height: auto;
-    aspect-ratio: 412 / 375;
+    aspect-ratio: 420 / 375;
   }
 
   .brosko{
